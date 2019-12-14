@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Movie List API</title>
+</head>
+<body>
+	
+	<header class="header-app">
+		<div class="container">
+			<nav class="nav-app">
+				<div class="nav-logo">
+					<a href="#" class="nav-logo">Movie List API</a>
+				</div>
+				<div class="nav-link">
+					<a href="#" class="link-item active">Home</a>
+					<a href="#" class="link-item">Category</a>
+					<a href="#" class="link-item">Genre</a>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main class="content-app">
+		<div class="container">
+			<div class="content-wrap">
+
+				<div class="top-content">
+					<input type="text"id="search-input" class="input" placeholder="Search Movie Here..." autofocus>
+					<button id="search-button">Search</button>
+				</div>
+
+				<h1 style="color: black; margin: 3rem auto 0; align-self: center;" id="title-body"></h1>
+				<div class="body-content" id="body-content">
+					<h2 style="color: black; margin: 0 auto; align-self: center;">
+						Carilah dan download movie favorit anda disini!
+					</h2>
+				</div>
+
+			</div>
+		</div>
+	</main>
+
+
+	<footer class="footer-app">
+		<div class="container">
+			<p>&copy; <span id="tahun"></span> - Rully Ihza Mahendra | Movie List API | <span id="hari"></span></p>
+		</div>
+	</footer>
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>
