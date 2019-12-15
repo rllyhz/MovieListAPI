@@ -3,8 +3,8 @@ const searchInput   = document.querySelector('#search-input')
 const bodyContent   = document.querySelector('#body-content')
 const links         = document.querySelectorAll('.link-item')
 const titleBody     = document.querySelector('#title-body')
-const tahun     = document.querySelector('#tahun')
-const formatHari     = document.querySelector('#hari')
+const tahun         = document.querySelector('#tahun')
+const formatHari    = document.querySelector('#hari')
 let content         = []
 
 tahun.innerText = new Date().getFullYear()

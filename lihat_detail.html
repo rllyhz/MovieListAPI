@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" onload="callAjax()">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title id="title-page"></title>
+	<link rel="stylesheet" href="css/lihat_detail.css">
+	<title id="title-page">Detail Page | </title>
 </head>
-<body>
-	
+<body onload="callAjax()">
+
+	<header class="header-app">
+		<div class="container">
+			<nav class="nav-app">
+				<div class="nav-logo">
+					<a href="#" class="nav-logo">Movie List API</a>
+				</div>
+				<div class="nav-link">
+					<a href="index.html" class="link-item active">Home</a>
+					<a href="#" class="link-item">Category</a>
+					<a href="#" class="link-item">Genre</a>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main class="content-app">
+		<div class="container">
+			<div class="content-wrap">
+				<h1 class="title">Movie List API</h1>
+
+				<div class="detail-card">
+					<div class="detail-card_header">
+						<h2 id="title-card"></h2>
+					</div>
+
+					<div class="detail-card_description" id="detail-card_description"></div>
+				</div>
+				<div class="detail-card_description" id="detail-card_error">
+					<h2>Sedang mengumpulkan detail dari Movie....</h2>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer-app">
+		<div class="container">
+			<p>&copy; <span id="tahun"></span> - Rully Ihza Mahendra | Movie List API | <span id="hari"></span> WIB</p>
+		</div>
+	</footer>
 
 	<script src="js/app.js"></script>
 	<script src="js/lihat_detail.js"></script>

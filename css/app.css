@@ -27,3 +27,44 @@ body {
 	background: var(--bg-color);
 	color: var(--color-secondary);
 }
+
+.header-app {
+	display: block;
+	background: var(--color-primary);
+	color: white;
+}
+.nav-app {
+	display: flex;
+	padding: 1.2rem 0;
+	align-items: center;
+}
+.nav-app .nav-logo {
+	font-size: 1.3rem;
+}
+.nav-app .nav-link {
+	margin-left: 10%;
+}
+.nav-app .nav-link a {
+	margin-right: 1.2rem;
+	color: var(--color-light);
+	font-size: 1rem;
+}
+.nav-app .nav-link a.active,
+.nav-app .nav-link a:hover {
+	color: inherit;
+}
+
+.footer-app {
+	margin-top: 2rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+}
+.footer-app .container p {
+	text-align: right;
+	font-size: .8em;
+}

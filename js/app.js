@@ -1,5 +1,5 @@
 const apiKey          = 'dca61bcc'
-const url             = 'https://www.omdbapi.com/'
+let url             = 'https://www.omdbapi.com/'
 let error = new Error()
 error.name = "Bukan string!"
 
@@ -17,15 +17,29 @@ function hasNumber(myString) {
   return /\d/.test(myString);
 }
 
+function formatWaktu(jam, menit, detik) {
+	// console.log(jam)
+	if (jam.toString().length == 1) {
+		jam = '0'+jam
+	}
+	if (menit.toString().length == 1) {
+		menit = '0'+menit
+	}
+	if (detik.toString().length == 1) {
+		detik = '0'+detik
+	}
+
+	return [jam, menit, detik]
+}
 
 function ubahKeHari(hari) {
-	if( hari === 1) return 'Senin'
-	if( hari === 2) return 'Selasa'
-	if( hari === 3) return 'Rabu'
-	if( hari === 4) return 'Kamis'
+	if( hari == 1) return 'Senin'
+	if( hari == 2) return 'Selasa'
+	if( hari == 3) return 'Rabu'
+	if( hari == 4) return 'Kamis'
 	if( hari == 5) return "Jum'at"
 	if( hari == 6) return 'Sabtu'
-	if( hari == 7) return 'Minggu'
+	if( hari == 0) return 'Minggu'
 }
 
 function ubahKeBulan(bulan) {
