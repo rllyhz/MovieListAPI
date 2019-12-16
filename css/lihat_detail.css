@@ -82,8 +82,8 @@
     background: rgb(20, 20, 20);
 }
 .content-wrap .detail-card .detail-card_description .description_content .description_content-group p,
-.content-wrap .detail-card .detail-card_description .description_content .description_content-group .actor li,
-.content-wrap .detail-card .detail-card_description .description_content .description_content-group .actor:nth-child(even) li
+.content-wrap .detail-card .detail-card_description .description_content .description_content-group .list li,
+.content-wrap .detail-card .detail-card_description .description_content .description_content-group .list:nth-child(even) li
 {
     color: rgb(158, 158, 158);
 }
@@ -101,8 +101,8 @@
 }
 .content-wrap .detail-card .detail-card_description .description_content .description_content-group p,
 .content-wrap .detail-card .detail-card_description .description_content .description_content-group:nth-child(even) p,
-.content-wrap .detail-card .detail-card_description .description_content .description_content-group .actor,
-.content-wrap .detail-card .detail-card_description .description_content .description_content-group:nth-child(even) .actor
+.content-wrap .detail-card .detail-card_description .description_content .description_content-group .list,
+.content-wrap .detail-card .detail-card_description .description_content .description_content-group:nth-child(even) .list
 {
     padding-top: .5em;
     padding-left: 1em;

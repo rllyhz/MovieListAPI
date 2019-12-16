@@ -38,13 +38,20 @@ function callAjax() {
                 descriptionTitle.innerHTML = data.Title
 
                 let Actors = data.Actors.split(',')
-                                        .map(item => `<li style="color:rgb(75, 74, 74); padding-left:1em; list-style:none;">${item}</li>`)
+                                        .map(item => `<li style="color:rgb(75, 74, 74); list-style:none;">${item}</li>`)
+                                        .join('')
+
+                let Writer = data.Writer.split(',')
+                                        .map(item => `<li style="color:rgb(75, 74, 74); list-style:none;">${item}</li>`)
                                         .join('')
                 
                 let rootElement = document.querySelector('body')
                 rootElement.addEventListener('load',function(event){
                     if (document.querySelector('#actors')) {
                         document.querySelector('#actors').innerHTML = Actors
+                    }
+                    if (document.querySelector('#writer')) {
+                        document.querySelector('#writer').innerHTML = Writer
                     }
                 }, true)
 
@@ -72,7 +79,9 @@ function callAjax() {
                                     <div class="description_content-group">
                                         <h3>Penulis</h3>
                                         <hr/>
-                                        <p>${data.Writer}</p>
+                                        <ul class="list" id="writer" style="padding-top:.5em;">
+                                            
+                                        </ul>
                                     </div>
                                     <div class="description_content-group">
                                         <h3>Direktur</h3>
@@ -92,7 +101,7 @@ function callAjax() {
                                     <div class="description_content-group">
                                         <h3>Aktor</h3>
                                         <hr/>
-                                        <ul class="actors" id="actors" style="padding-top:.5em;">
+                                        <ul class="list" id="actors" style="padding-top:.5em;">
                                             
                                         </ul>
                                     </div>
