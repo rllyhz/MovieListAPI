@@ -33,28 +33,28 @@ function formatWaktu(jam, menit, detik) {
 }
 
 function ubahKeHari(hari) {
-	if( hari == 1) return 'Senin'
-	if( hari == 2) return 'Selasa'
-	if( hari == 3) return 'Rabu'
-	if( hari == 4) return 'Kamis'
-	if( hari == 5) return "Jum'at"
-	if( hari == 6) return 'Sabtu'
-	if( hari == 0) return 'Minggu'
+	if( hari == 1) return 'Monday'
+	if( hari == 2) return 'Tuesday'
+	if( hari == 3) return 'Wednesday'
+	if( hari == 4) return 'Thursday'
+	if( hari == 5) return "Friday"
+	if( hari == 6) return 'Saturday'
+	if( hari == 0) return 'Sunday'
 }
 
 function ubahKeBulan(bulan) {
-	if ( bulan === 1 ) return 'Januari'
-	if ( bulan === 2 ) return 'Februari'
-	if ( bulan === 3 ) return 'Maret'
+	if ( bulan === 1 ) return 'January'
+	if ( bulan === 2 ) return 'February'
+	if ( bulan === 3 ) return 'March'
 	if ( bulan === 4 ) return 'April'
-	if ( bulan === 5 ) return 'Mei'
-	if ( bulan === 6 ) return 'Juni'
-	if ( bulan === 7 ) return 'Juli'
-	if ( bulan === 8 ) return 'Agustus'
+	if ( bulan === 5 ) return 'May'
+	if ( bulan === 6 ) return 'June'
+	if ( bulan === 7 ) return 'July'
+	if ( bulan === 8 ) return 'August'
 	if ( bulan === 9 ) return 'September'
-	if ( bulan === 10 ) return 'Oktober'
+	if ( bulan === 10 ) return 'October'
 	if ( bulan === 11 ) return 'November'
-	if ( bulan === 12 ) return 'Desember'
+	if ( bulan === 12 ) return 'December'
 }
 
 function parseURLParams(url) {
