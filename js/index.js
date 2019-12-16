@@ -34,7 +34,6 @@ searchButton.addEventListener('click', function() {
 	let data = convertToCapital(searchInput.value.toLowerCase())
 
 	url = `${url}?apikey=${apiKey}&s=${data}`
-	console.log(url)
 	bodyContent.innerHTML = ''
 	getAllData(url)
 })

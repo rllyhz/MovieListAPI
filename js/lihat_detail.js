@@ -22,7 +22,7 @@ setInterval(() => {
         new Date().getSeconds()
     )
 
-	formatHari.innerText = `${ubahKeHari(hari}, ${tanggal} ${ubahKeBulan(bulan)} ${tahun} => ${jam}:${menit}:${detik}`
+	formatHari.innerText = `${ubahKeHari(hari)}, ${tanggal} ${ubahKeBulan(bulan)} ${tahun} => ${jam}:${menit}:${detik}`
 }, 1000)
 
 
