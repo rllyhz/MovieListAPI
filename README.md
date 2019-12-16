@@ -15,7 +15,7 @@
 <a id="introduction"></a>
 # Hello My Georgeous Friends in The Internet ◕ ‿ ◕
 
-[Today](# "15 December 2019"), I had created something awesome and want to share with yall. That's my second project after **`Text Editor App`**. It is a **`Movie List WebApp`**. This WebApp was built using [`HTML`](https://en.wikipedia.org/wiki/HTML "HyperText Markup Language"), [`CSS`](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets"), and then [`Javascript`](https://en.wikipedia.org/wiki/JavaScript "Javascript") language for the entire logic of the app. You can run this app in any of the latest Web Browser, such as Chrome (recommended), Firefox, Opera, etc.
+[Today](# "15 December 2019"), I have created something awesome and want to share with y'all❤. That's my second project after **`Text Editor App`**. It is a **`Movie List WebApp`**. This WebApp was built using [`HTML`](https://en.wikipedia.org/wiki/HTML "HyperText Markup Language"), [`CSS`](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets"), and then [`Javascript`](https://en.wikipedia.org/wiki/JavaScript "Javascript") language for the entire logic of the app. You can run this app in any of the latest Web Browser, such as Chrome (recommended), Firefox, Opera, etc.
 
 **`Movie List WebApp`** use [**`Omdb API`**](http://www.omdbapi.com/) to get all of the data of the movies. So the data will be obtained from the API and be extracted to the website using [AJAX Technology](https://en.wikipedia.org/wiki/Ajax_(programming)). so you no longer need to think about it and just be happy with this simple app :D.
 
@@ -68,29 +68,7 @@ Fortunately, there is no any pre-requirements you have to solve to run it. Just 
 <a id="configuration"></a>
 ## Configuration For Yourself
 
-Now, these are all you can do to this awesome app.
-
-### Set The Name, The Author, and The Version of The App
-
-Open file `PyTextEditor.py` and look at this lines of code:
-
-```python
-...
-APPNAME = "PyTextEditor"
-AUTHOR = "Rully Ihza Mahendra"
-APPVERSION = "0.1"
-...
-```
-
-You can change the value of `APPNAME`, `AUTHOR`, and `APPVERSION` to your own.
-
-```python
-...
-APPNAME = "My Note"
-AUTHOR = "Dzulkifli Ananda"
-APPVERSION = "1.0"
-...
-```
+Oopss.... there is no any configuration for running this app. So just go ahead!
 
 <br />
 
@@ -108,14 +86,14 @@ APPVERSION = "1.0"
 
 On windows, [`Git`](https://git-scm.com/) **must be installed** in your computer before running the command below in Git Bash:
 ```bash
-git clone https://github.com/rllyhz/PyTextEditor.git
+git clone https://github.com/rllyhz/MovieListAPI.git
 ```
 
 On MacOs or Linux
 ```bash
-sudo git clone https://github.com/rllyhz/PyTextEditor.git
+sudo git clone https://github.com/rllyhz/MovieListAPI.git
 ```
-Or you can click the '**Clone or download**' button available in this repo above to download it directly:
+Or you can just click on the '**Clone or download**' button available in this repo above to download it directly:
 
 <img src="clone_or_download.png">
 
@@ -153,11 +131,13 @@ If you love this project, please give me some loves and supports by visiting and
 
 | Name | Detail |
 | --- | --- |
-| Python | https://www.python.org/ |
-| Python | https://www.python.org/downloads/ |
-| Tkinter Module | https://docs.python.org/3.8/library/tkinter.html |
-| Creator of Python | https://en.wikipedia.org/wiki/Python_(programming_language) |
+| HTML | https://en.wikipedia.org/wiki/HTML |
+| CSS | https://en.wikipedia.org/wiki/Cascading_Style_Sheets |
+| Javascript | https://en.wikipedia.org/wiki/JavaScript |
+| Omdb API | http://www.omdbapi.com/ |
+| AJAX Technology | https://en.wikipedia.org/wiki/Ajax_(programming) |
 | Wikipedia | https://en.wikipedia.org/wiki/Operating_system |
+| Git | https://git-scm.com/ |
 
 <br />
 
