@@ -127,7 +127,7 @@ Or you can just click on the '**Clone or download**' button available in this re
 If you love this project, please give me some loves and supports by visiting and following my social media as well to look at some of my next awesome weekly projects, here:
 
 -  Instagram -> https://www.instagram.com/rllyhz/
--  Twitter -> ...
+-  Twitter -> https://www.twitter.com/rllyhz/
 
 **_Follow me and stay tuned!!_**
 
