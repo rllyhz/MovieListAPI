@@ -1,4 +1,4 @@
-const apiKey          = 'dca61bcc'
+const apiKey          = 'YOUR_API_KEY_HERE'
 let url             = 'https://www.omdbapi.com/'
 let error = new Error()
 error.name = "Bukan string!"
