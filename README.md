@@ -81,7 +81,7 @@ Fortunately, there is no any pre-requirements you have to solve to run it. Just 
 - Firstly, you have to register to https://www.omdbapi.com/ in order to get your own api key.
 [Here](https://www.omdbapi.com/apikey.aspx) the link!
 - And then, please input your api key at the first line of the `js/app.js` file.
-- You'll see there a variable API_KEY="YOUR_API_KEY_HERE", just replace it to your own. For example, API_KEY="245b34a"
+- You'll see there a variable `API_KEY="YOUR_API_KEY_HERE"`, just replace it to your own. For example, `API_KEY="245b34a"`.
 - Finally, the app can be already used.
 
 That's all. So just go ahead!
